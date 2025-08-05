@@ -18,6 +18,10 @@ body {
     justify-content: space-between;
     border-bottom: solid black 2px;
     align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
 }
 
 .navbar--s2 {
@@ -45,7 +49,29 @@ body {
     gap: 10px;
     align-items: center;
 }
+/* work sectiom */
+.navbar--s3__one{
+    position: relative;
+     cursor: pointer;
+}
+.navbar--s3__two {
+    border: solid black 1px;
+    width: 100px;
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    top: 30px;
+    display: none;
+   
+}
+.navbar--s3__two,.navbar--s3__one:hover{
+  display: block;
+}
 
+
+
+
+/* work section */
 .categroy {
     display: flex;
     flex-wrap: wrap;
