@@ -73,7 +73,7 @@ body {
     display: block;
 
 }
-/* work */
+
 .categroy {
     display: flex;
     flex-wrap: wrap;
@@ -89,9 +89,9 @@ body {
     transition: 1s;
   background-color:transparent;
   border:solid #A435F0 2px;
-  color: #A435F0;
+  color:black;
 }
-/* work */
+
 
 .categroy p {
     background-color: #A435F0;
@@ -117,6 +117,23 @@ body {
     border: solid black 2px;
     margin: 10px;
     padding: 10px;
+    opacity: 0;
+    animation-name: zoom;
+    animation-fill-mode: forwards;
+    animation-duration:2s;
+}
+@keyframes zoom {
+   0%{
+    opacity: 0;
+    transform: scale(0);
+
+   }
+    100%{
+         opacity: 1;
+    transform: scale(1);
+    
+   }
+    
 }
 
 .section--two__btn1 {
