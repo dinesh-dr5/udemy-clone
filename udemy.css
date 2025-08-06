@@ -49,11 +49,13 @@ body {
     gap: 10px;
     align-items: center;
 }
-/* work sectiom */
-.navbar--s3__one{
+
+
+.navbar--s3__one {
     position: relative;
-     cursor: pointer;
+    cursor: pointer;
 }
+
 .navbar--s3__two {
     border: solid black 1px;
     width: 100px;
@@ -61,24 +63,35 @@ body {
     padding: 10px;
     background-color: white;
     top: 30px;
+    right: 0px;
+    height: 60px;
     display: none;
-   
-}
-.navbar--s3__two,.navbar--s3__one:hover{
-  display: block;
+
 }
 
+.navbar--s3__one:hover .navbar--s3__two {
+    display: block;
 
-
-
-/* work section */
+}
+/* work */
 .categroy {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
     border-bottom: solid black 2px;
+   
 }
+.categroy p{
+   border:solid #A435F0 2px;  
+}
+.categroy p:hover{
+    transition: 1s;
+  background-color:transparent;
+  border:solid #A435F0 2px;
+  color: #A435F0;
+}
+/* work */
 
 .categroy p {
     background-color: #A435F0;
@@ -201,7 +214,7 @@ body {
 .footer {
     background-color: black;
     color: white;
-    }
+}
 
 .footer--one__s1 p,
 .footer--one__s2 p {
@@ -211,7 +224,7 @@ body {
 
 .footer--one {
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -219,8 +232,9 @@ body {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    
+
 }
-.container--one del{
+
+.container--one del {
     opacity: 0.3;
 }
